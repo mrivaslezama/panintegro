@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="generator" content="Astro v2.4.5">
+    <title>Pan saludable</title>
+  <link rel="stylesheet" href="/_astro/index.70a2dda4.css" /><script type="module">const g=document.querySelector("#landing-header"),m={root:null,rootMargin:"0px",threshold:.9},f=new IntersectionObserver(e=>{e.forEach(n=>{const{isIntersecting:r}=n;if(r){const o=n.target.getAttribute("data-header-color");g.style.color=o}})},m),y=document.querySelectorAll(".landing-section");y.forEach(e=>f.observe(e));const E=document.querySelectorAll("#landing-header li"),t=document.querySelector("#menu-backdrop");E.forEach(e=>{e.addEventListener("mouseenter",()=>{const{left:n,top:r,width:o,height:u}=e.getBoundingClientRect();t.style.setProperty("--left",`${n}px`),t.style.setProperty("--top",`${r}px`),t.style.setProperty("--width",`${o}px`),t.style.setProperty("--height",`${u}px`),t.style.opacity="1",t.style.visibility="visible"}),e.addEventListener("mouseleave",()=>{t.style.opacity="0",t.style.visibility="hidden"})});const v=document.getElementById("menu-btn"),d=document.querySelector("#modal-menu"),p=d.querySelectorAll("li>a "),h=document.querySelector("#close-btn");function l(){d.classList.toggle("hidden")}v.addEventListener("click",l);h.addEventListener("click",l);p.forEach(e=>{e.addEventListener("click",l)});function b(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let s=document.querySelector("#bg-image-model3");b()?s.src="model-3.webp":s.src="model-3.avif";function x(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let i=document.querySelector("#bg-image-modelx");x()?i.src="model-x.webp":i.src="model-x.avif";function w(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let c=document.querySelector("#bg-image-accessories");w()?c.src="cheesecake.avif":c.src="altcake.avif";function A(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let a=document.querySelector("#bg-image-powerwall");A()?a.src="powerwall.webp":a.src="powerwall.avif";
+</script></head>
+  <body>
+    
+  <header id="landing-header" class="py-3 px-10 flex items-center fixed top-0 w-full justify-between z-40 text-white">
+  <div class="flex flex-grow basis-0">
+    <a href="./"><img class="h-10 fill-sky-50 object-cover" src="/public/logo.png" alt="Logo de integro"></a>
+  </div>
+
+  <nav class="hidden xl:block sm:hidden">
+    <ul class="flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
+      <li><a href="/">Inicio</a></li>
+      <li><a href="#panes">Panes</a></li>
+      <li><a href="#postres">Postres</a></li>
+      <li><a href="#tienda">Tienda</a></li>
+    </ul>
+  </nav>
+
+  <nav class="flex flex-grow justify-end basis-0">
+    <ul class="flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
+      <li class="hidden xl:block sm:hidden"><a href="https://api.whatsapp.com/send?phone=56935797485&text=Hola%20Pan%20Salduable..!!%20Consulta">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <nav id="modal-menu" class=" hidden xl:hidden flex flex-col bg-white fixed top-0 left-0 right-0 bottom-0 ">
+    <button id="close-btn" class=" w-screen flex justify-end p-5">
+      <img class="text-black h-6 " src="/close-icon.svg" alt="close image">
+    </button>
+      <ul class="flex flex-col mt-4 [&>li>a]:transition-colors [&>li]:m-3  [&>li>a]:flex [&>li>a]:justify-between [&>li>a]:duration-200 [&>li>a]:text-black [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-6 [&>li>a]:py-3 [&>li>a]:rounded-md [&>li>a]:w-full">
+        <li><a class="hover:bg-slate-100" href="/"> Inicio <img class="h-5" alt="arrow icon" src="/arrow-icon.svg"></a> </li>
+        <li><a class="hover:bg-slate-100" href="#panes">Panes<img class="h-5" alt="arrow icon" src="/arrow-icon.svg"></a></li>
+        <li><a class="hover:bg-slate-100" href="#accesorios">Carga<img class="h-5" alt="arrow icon" src="/arrow-icon.svg"></a></li>
+    </ul>
+  </nav>
+
+  <div id="menu-backdrop" class="
+      absolute bg-black/5 backdrop-blur-lg rounded
+      translate-x-[var(--left)] translate-y-[var(--top)]
+      left-0 top-0
+      w-[var(--width)] h-[var(--height)]
+      transition-all duration-500
+      ease-in-out opacity-0 -z-10
+    ">
+  </div>
+</header>
+
+  <main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
+    <div class="snap-center">
+      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="white" id="home">
+  <div class="z-30 relative h-full flex flex-col">
+    <header>
+      <h2 class="text-white pt-40 text-[40px] font-medium">
+        Pan saludable
+      </h2>
+      <p class="text-white text-sm">
+        Postres hechos a base de masa madre una alternativa saludable
+      </p>
+    </header>
+
+    <footer class="flex flex-col flex-grow justify-end pb-20">
+      <div>
+    <a class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors" href="https://api.whatsapp.com/send?phone=56935797485&text=Hola%20Pan%20Salduable..!!%20Consulta">
+      Contacto</a>
+  </div>
+      <!-- Contidionally load footer: -->
+      
+    </footer>
+  </div>
+
+  <div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <video class="object-center object-cover h-full w-full" autoplay muted loop src="/amasa1.mp4"></video>
+  </div>
+</section>
+    </div>
+    <div class="snap-center">
+      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="black" id="postres">
+  <div class="z-30 relative h-full flex flex-col">
+    <header>
+      <h2 class="text-black pt-40 text-[40px] font-medium">
+        Postres
+      </h2>
+      <p class="text-black text-sm">
+        
+      </p>
+    </header>
+
+    <footer class="flex flex-col flex-grow justify-end pb-20">
+      <div class="gap-x-6 flex mx-auto">
+    <a class="border-[3px] border-black bg-black text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors duration-300 hover:border-gray-800 hover:bg-gray-800" href="#">
+      Comprar ahora</a>
+    <!-- <a
+      class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black"
+      href="#"
+    >
+      Saber más</a
+    > -->
+  </div>
+      <!-- Contidionally load footer: -->
+      <footer class="py-3 px-10 flex justify-center items-center absolute bottom-0 w-full z-40 text-gray-600 text-xs font-medium" id="landing-footer">
+	<nav>
+		<ul class="flex [&>li>a]:inline-block [&>li>a]:px-2 [&>li>a]:py-2">
+			<li><a href="#">PanesSaludables © 2025</a></li>
+			<li><a href="#">Privacidad y legal</a></li>
+			<li><a href="https://api.whatsapp.com/send?phone=56935797485&text=Hola%20Pan%20Salduable..!!%20Consulta">Contacto</a></li>
+			<li><a href="#">Noticias</a></li>
+		</ul>
+	</nav>
+</footer>
+    </footer>
+  </div>
+
+  <div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <img alt="Postres" class="h-full w-full object-cover object-center" src="cheesecake.avif" id="bg-image-accessories">
+  </div>
+</section>
+    </div>
+    <div class="snap-center">
+      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="black" id="model-3">
+  <div class="z-30 relative h-full flex flex-col">
+    <header>
+      <h2 class="text-black pt-40 text-[40px] font-medium">
+        Model 3
+      </h2>
+      <p class="text-black text-sm">
+        Concertar una prueba de conducción
+      </p>
+    </header>
+
+    <footer class="flex flex-col flex-grow justify-end pb-20">
+      <div class="gap-x-6 flex mx-auto">
+    <a class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" href="#">
+      Explorar inventario</a>
+    <a class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black" href="#">
+      Pedido personalizado</a>
+  </div>
+      <!-- Contidionally load footer: -->
+      
+    </footer>
+  </div>
+
+  <div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <img alt="Model 3" class="h-full w-full object-cover object-center" src="model-3.avif" id="bg-image-model3">
+  </div>
+</section>
+    </div>
+    <div class="snap-center">
+      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="white" id="panes">
+  <div class="z-30 relative h-full flex flex-col">
+    <header>
+      <h2 class="text-white pt-40 text-[40px] font-medium">
+        Panes
+      </h2>
+      <p class="text-white text-sm">
+        Panaderia saludable a basa de masa madre
+      </p>
+    </header>
+
+    <footer class="flex flex-col flex-grow justify-end pb-20">
+      <div class="gap-x-6 flex mx-auto">
+    <a class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" href="#">
+      Pedido personalizado</a>
+    <a class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black" href="#">
+      Saber más</a>
+  </div>
+      <!-- Contidionally load footer: -->
+      
+    </footer>
+  </div>
+
+  <div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <img alt="Panes" class="h-full w-full object-cover object-center" src="panes.avif" id="bg-image-models">
+  </div>
+</section>
+    </div>
+    <div class="snap-center">
+      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="black" id="model-x">
+  <div class="z-30 relative h-full flex flex-col">
+    <header>
+      <h2 class="text-black pt-40 text-[40px] font-medium">
+        Model X
+      </h2>
+      <p class="text-black text-sm">
+        Programe una consulta virtual
+      </p>
+    </header>
+
+    <footer class="flex flex-col flex-grow justify-end pb-20">
+      <div class="gap-x-6 flex mx-auto">
+    <a class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" href="#">
+      Pedido personalizado</a>
+    <a class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black" href="#">
+      Saber más</a>
+  </div>
+      <!-- Contidionally load footer: -->
+      
+    </footer>
+  </div>
+
+  <div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <img alt="Model X" class="h-full w-full object-cover object-center" src="model-x.avif" id="bg-image-modelx">
+  </div>
+</section>
+    </div>
+    <div class="snap-center">
+      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="black" id="powerwall">
+  <div class="z-30 relative h-full flex flex-col">
+    <header>
+      <h2 class="text-black pt-40 text-[40px] font-medium">
+        Solar y Powerwall
+      </h2>
+      <p class="text-black text-sm">
+        Energía para todos
+      </p>
+    </header>
+
+    <footer class="flex flex-col flex-grow justify-end pb-20">
+      <div class="gap-x-6 flex mx-auto">
+    <a class="border-[3px] border-gray-800 bg-gray-800 text-sm rounded font-medium text-white px-16 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" href="#">
+      Saber más</a>
+    <!-- <a
+      class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black"
+      href="#"
+    >
+      Saber más</a
+    > -->
+  </div>
+      <!-- Contidionally load footer: -->
+      
+    </footer>
+  </div>
+
+  <div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <img alt="Solar y Powerwall" class="h-full w-full object-cover object-center" src="powerwall.avif" id="bg-image-powerwall">
+  </div>
+</section>
+    </div>
+  </main>
+
+  </body></html>
