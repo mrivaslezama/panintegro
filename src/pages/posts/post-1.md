@@ -25,3 +25,9 @@ Publicado el: 2022-07-01
 ## Próximos pasos
 
 Terminaré el tutorial de Astro, y luego seguiré añadiendo más publicaciones. Mira este espacio para más por venir.
+
+https://www.compart.com/en/unicode/U+24D8
+!Integro
+
+Unicode Character “ⓘ” (U+24D8)
+ⓘ Pan+Integro
