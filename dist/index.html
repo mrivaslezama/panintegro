@@ -6,7 +6,8 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="generator" content="Astro v2.4.5">
     <title>Pan saludable</title>
-  <link rel="stylesheet" href="/_astro/index.70a2dda4.css" /><script type="module">const g=document.querySelector("#landing-header"),m={root:null,rootMargin:"0px",threshold:.9},f=new IntersectionObserver(e=>{e.forEach(n=>{const{isIntersecting:r}=n;if(r){const o=n.target.getAttribute("data-header-color");g.style.color=o}})},m),y=document.querySelectorAll(".landing-section");y.forEach(e=>f.observe(e));const E=document.querySelectorAll("#landing-header li"),t=document.querySelector("#menu-backdrop");E.forEach(e=>{e.addEventListener("mouseenter",()=>{const{left:n,top:r,width:o,height:u}=e.getBoundingClientRect();t.style.setProperty("--left",`${n}px`),t.style.setProperty("--top",`${r}px`),t.style.setProperty("--width",`${o}px`),t.style.setProperty("--height",`${u}px`),t.style.opacity="1",t.style.visibility="visible"}),e.addEventListener("mouseleave",()=>{t.style.opacity="0",t.style.visibility="hidden"})});const v=document.getElementById("menu-btn"),d=document.querySelector("#modal-menu"),p=d.querySelectorAll("li>a "),h=document.querySelector("#close-btn");function l(){d.classList.toggle("hidden")}v.addEventListener("click",l);h.addEventListener("click",l);p.forEach(e=>{e.addEventListener("click",l)});function b(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let s=document.querySelector("#bg-image-model3");b()?s.src="model-3.webp":s.src="model-3.avif";function x(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let i=document.querySelector("#bg-image-modelx");x()?i.src="model-x.webp":i.src="model-x.avif";function w(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let c=document.querySelector("#bg-image-accessories");w()?c.src="cheesecake.avif":c.src="altcake.avif";function A(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let a=document.querySelector("#bg-image-powerwall");A()?a.src="powerwall.webp":a.src="powerwall.avif";
+  <link rel="stylesheet" href="/_astro/index.533f0d13.css" />
+<link rel="stylesheet" href="/_astro/index.4f983f4a.css" /><script type="module">const d=document.querySelector("#landing-header"),u={root:null,rootMargin:"0px",threshold:.9},g=new IntersectionObserver(e=>{e.forEach(n=>{const{isIntersecting:o}=n;if(o){const r=n.target.getAttribute("data-header-color");d.style.color=r}})},u),m=document.querySelectorAll(".landing-section");m.forEach(e=>g.observe(e));const y=document.querySelectorAll("#landing-header li"),t=document.querySelector("#menu-backdrop");y.forEach(e=>{e.addEventListener("mouseenter",()=>{const{left:n,top:o,width:r,height:a}=e.getBoundingClientRect();t.style.setProperty("--left",`${n}px`),t.style.setProperty("--top",`${o}px`),t.style.setProperty("--width",`${r}px`),t.style.setProperty("--height",`${a}px`),t.style.opacity="1",t.style.visibility="visible"}),e.addEventListener("mouseleave",()=>{t.style.opacity="0",t.style.visibility="hidden"})});const f=document.getElementById("menu-btn"),l=document.querySelector("#modal-menu"),v=l.querySelectorAll("li>a "),E=document.querySelector("#close-btn");function s(){l.classList.toggle("hidden")}f.addEventListener("click",s);E.addEventListener("click",s);v.forEach(e=>{e.addEventListener("click",s)});function h(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let c=document.querySelector("#bg-image-nosotros");h()?c.src="nosotros.jpg":c.src="cortpan.avif";function p(){return navigator.userAgent.indexOf("Edge")>-1||navigator.userAgent.indexOf("Edg")>-1}let i=document.querySelector("#bg-image-accessories");p()?i.src="cheesecake.avif":i.src="altcake.avif";
 </script></head>
   <body>
     
@@ -20,7 +21,8 @@
       <li><a href="/">Inicio</a></li>
       <li><a href="#panes">Panes</a></li>
       <li><a href="#postres">Postres</a></li>
-      <li><a href="#tienda">Tienda</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="/tienda">Tienda</a></li>
     </ul>
   </nav>
 
@@ -123,23 +125,23 @@
 </section>
     </div>
     <div class="snap-center">
-      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="black" id="model-3">
+      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="white" id="nosotros">
   <div class="z-30 relative h-full flex flex-col">
     <header>
-      <h2 class="text-black pt-40 text-[40px] font-medium">
-        Model 3
+      <h2 class="text-white pt-40 text-[40px] font-medium">
+        Nosotros
       </h2>
-      <p class="text-black text-sm">
-        Concertar una prueba de conducción
+      <p class="text-white text-sm">
+        Pan artesanal y sin aditivos, basado en recetas tradicionales.
       </p>
     </header>
 
     <footer class="flex flex-col flex-grow justify-end pb-20">
       <div class="gap-x-6 flex mx-auto">
     <a class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" href="#">
-      Explorar inventario</a>
+      Panaderia y pasteleria familiar</a>
     <a class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black" href="#">
-      Pedido personalizado</a>
+      Saber más</a>
   </div>
       <!-- Contidionally load footer: -->
       
@@ -147,7 +149,7 @@
   </div>
 
   <div class="absolute top-0 bottom-0 h-full w-full z-10">
-    <img alt="Model 3" class="h-full w-full object-cover object-center" src="model-3.avif" id="bg-image-model3">
+    <img alt="Nosotros" class="h-full w-full object-cover object-center" src="nosotros.jpg" id="bg-image-nosotros">
   </div>
 </section>
     </div>
@@ -177,68 +179,6 @@
 
   <div class="absolute top-0 bottom-0 h-full w-full z-10">
     <img alt="Panes" class="h-full w-full object-cover object-center" src="panes.avif" id="bg-image-models">
-  </div>
-</section>
-    </div>
-    <div class="snap-center">
-      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="black" id="model-x">
-  <div class="z-30 relative h-full flex flex-col">
-    <header>
-      <h2 class="text-black pt-40 text-[40px] font-medium">
-        Model X
-      </h2>
-      <p class="text-black text-sm">
-        Programe una consulta virtual
-      </p>
-    </header>
-
-    <footer class="flex flex-col flex-grow justify-end pb-20">
-      <div class="gap-x-6 flex mx-auto">
-    <a class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" href="#">
-      Pedido personalizado</a>
-    <a class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black" href="#">
-      Saber más</a>
-  </div>
-      <!-- Contidionally load footer: -->
-      
-    </footer>
-  </div>
-
-  <div class="absolute top-0 bottom-0 h-full w-full z-10">
-    <img alt="Model X" class="h-full w-full object-cover object-center" src="model-x.avif" id="bg-image-modelx">
-  </div>
-</section>
-    </div>
-    <div class="snap-center">
-      <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="black" id="powerwall">
-  <div class="z-30 relative h-full flex flex-col">
-    <header>
-      <h2 class="text-black pt-40 text-[40px] font-medium">
-        Solar y Powerwall
-      </h2>
-      <p class="text-black text-sm">
-        Energía para todos
-      </p>
-    </header>
-
-    <footer class="flex flex-col flex-grow justify-end pb-20">
-      <div class="gap-x-6 flex mx-auto">
-    <a class="border-[3px] border-gray-800 bg-gray-800 text-sm rounded font-medium text-white px-16 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" href="#">
-      Saber más</a>
-    <!-- <a
-      class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black"
-      href="#"
-    >
-      Saber más</a
-    > -->
-  </div>
-      <!-- Contidionally load footer: -->
-      
-    </footer>
-  </div>
-
-  <div class="absolute top-0 bottom-0 h-full w-full z-10">
-    <img alt="Solar y Powerwall" class="h-full w-full object-cover object-center" src="powerwall.avif" id="bg-image-powerwall">
   </div>
 </section>
     </div>
