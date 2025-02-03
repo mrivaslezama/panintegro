@@ -4,10 +4,11 @@ import Section from "./Section.astro"
 
 <Section
   title="Nosotros"
-  subtitle="Hacemos panes y postres artesanales sin aditivos, con ingredientes naturales, basado en recetas tradicionales."
+  subtitle="Hacemos panes y postres artesanales sin aditivos, con ingredientes naturales."
   color="black"
   id="nosotros"
 >
+
   <div slot="footer" class="gap-x-6 flex mx-auto">
     <a
       class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500"
@@ -27,7 +28,7 @@ import Section from "./Section.astro"
     slot="background"
     alt="Nosotros"
     class="h-full w-full object-cover object-center"
-    src="nosotros.jpg"
+    src="amasa.avif"
     id="bg-image-nosotros"
   />
 </Section>
@@ -49,8 +50,8 @@ import Section from "./Section.astro"
   ) as HTMLImageElement
 
   if (isEdge()) {
-    imageElement.src = "nosotros.jpg"
+    imageElement.src = "amasa.avif"
   } else {
-    imageElement.src = "cortpan.avif"
+    imageElement.src = "amasa.avif"
   }
 </script>

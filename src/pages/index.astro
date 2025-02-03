@@ -1,23 +1,22 @@
 ---
-import Accessories from "../components/Accessories.astro";
 import HeroSection from "../components/HeroSection.astro";
 import LandingHeader from "../components/LandingHeader.astro";
 import Panes from "../components/Panes.astro";
 import Nosotros from "../components/Nosotros.astro";
 import Postres from "../components/Postres.astro";
-import PowerWall from "../components/PowerWall.astro";
 import Layout from "../layouts/Layout.astro";
-import Tienda from "../components/Tienda.astro";
+import Footer from "../components/FooterMenu.astro"
 ---
 
 <Layout title="Pan saludable">
   <LandingHeader />
 
-  <main
-    class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth"
-  >
+  <main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
     <div class="snap-center">
       <HeroSection />
+    </div>
+    <div class="snap-center">
+      <Panes />
     </div>
     <div class="snap-center">
       <Postres />
@@ -26,7 +25,7 @@ import Tienda from "../components/Tienda.astro";
       <Nosotros />
     </div>
     <div class="snap-center">
-      <Panes />
+      <Footer />
     </div>
   </main>
 </Layout>
